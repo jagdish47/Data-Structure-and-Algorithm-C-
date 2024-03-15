@@ -9,6 +9,11 @@ int sqrtBinarySearch(int x)
 
     int ans = -1;
 
+    if (x < 2)
+    {
+        return 0;
+    }
+
     while (start <= end)
     {
 
