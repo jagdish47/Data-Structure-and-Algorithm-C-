@@ -16,11 +16,18 @@ int main()
     {
         cout << *i << " ";
     }
+    cout << endl;
 
     for (int i = 0; i < v.size(); i++)
     {
         cout << v[i] << " ";
     }
+    cout << endl;
 
+    for (auto i : v)
+    {
+        cout << i << " ";
+    }
+    cout << endl;
     return 0;
 }
